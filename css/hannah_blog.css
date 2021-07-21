@@ -1,11 +1,3 @@
-/*
-
-TemplateMo 553 Xtra Blog
-
-https://templatemo.com/tm-553-xtra-blog
-
-*/
-
 html { overflow-x: hidden; }
 
 body {
@@ -142,10 +134,7 @@ ul {
     transition: all 0.3s ease;
 }
 
-.tm-social-link:hover .tm-social-icon.fa-facebook { color: #3b5998; }
-.tm-social-link:hover .tm-social-icon.fa-twitter { color: #00acee; }
-.tm-social-link:hover .tm-social-icon.fa-instagram { color: #3f729b; }
-.tm-social-link:hover .tm-social-icon.fa-linkedin { color: #0e76a8; }
+
 .navbar-toggler { display: none; }
 
 .tm-search-form {
@@ -296,6 +285,7 @@ video {
 .tm-comment {
     display: flex;
     align-items: flex-start;
+    background-color: #151515;
 }
 
 .tm-comment-figure {
@@ -307,11 +297,15 @@ video {
 
 .form-control {
     height: 45px;
-    border-color: #0CC;
+    border-color: inherit;
     border-radius: 0;
+    background-color: #151515;
+
 }
 
-.tm-comment-form { max-width: 360px; }
+.tm-comment-form { max-width: 360px;
+    background-color: #151515;  border-color: inherit;
+display: none;}
 .tm-category-list { list-style-type: none; }
 figure { margin: 0; }
 figcaption { line-height: 1.4; }
@@ -341,15 +335,15 @@ figcaption { line-height: 1.4; }
 .tm-mr-20 { margin-right: 20px; }
 .tm-color-primary, span.tm-color-primary { color: #fff; }
 a.tm-color-gray, .tm-color-gray { color: #999; }
-a.tm-color-gray:hover { color: #099; }
+a.tm-color-gray:hover { color: #be18ff; }
 .tm-bg-gray { background-color: #F3F4F5; }
 button:focus { outline: none; }
 a:hover { 
     text-decoration: none; 
-    color: #048c8c;
+    color: #be18ff;
 }
 
-a:hover figcaption { color: #056767; }
+a:hover figcaption { color: #be18ff; }
 .img-thumbnail { max-width: none; }
 .tm-about-pad { padding: 40px 35px; }
 .tm-person { max-width: 430px; }
@@ -376,11 +370,6 @@ a:hover figcaption { color: #056767; }
     margin-right: 15px;    
 }
 
-.tm-social-links li a i { transition: all 0.3s ease; }
-.tm-social-links li a:hover i.fa-facebook { color: #3b5998; }
-.tm-social-links li a:hover i.fa-twitter { color: #00acee; }
-.tm-social-links li a:hover i.fa-youtube { color: #c4302b; }
-.tm-social-links li a:hover i.fa-instagram { color: #3f729b; }
 
 .tm-contact-right { padding-left: 55px; }
 .tm-contact-form { max-width: 488px; }
