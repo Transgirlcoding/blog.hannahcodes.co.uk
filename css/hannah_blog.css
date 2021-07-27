@@ -7,6 +7,7 @@ body {
     font-size: 19px;
     line-height: 2em;
     overflow-x: hidden;
+    background-color: #151515;
 }
 
 p, span { color: #999; }
