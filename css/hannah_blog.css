@@ -156,27 +156,26 @@ ul {
     overflow: hidden;
     background: #be18ff79;
 }
-
 .tm-post-link img {
     position: relative;
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .effect-lily img {
 	max-width: none;
 	width: -webkit-calc(100% + 50px);
 	width: calc(100% + 50px);
-	opacity: 0.7;
+	opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-40px,0, 0);
 	transform: translate3d(-40px,0,0);
 }
 
-.effect-lily:hover img { opacity: 1; }
+.effect-lily:hover img { opacity:0.7; background-color: #be18ff;}
 
 .effect-lily:hover img {
     -webkit-transform: translate3d(0,0,0);
