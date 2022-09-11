@@ -584,7 +584,6 @@ nav .hamburger div {
     background-color: var(--light-body-bg-colour);
     width: 100%;
     padding-left: 3em;
-    width: calc(100% - 320px);
   }
 }
 @media (max-width: 991px) {
@@ -619,6 +618,13 @@ nav .hamburger div {
   margin-bottom: 1rem;
   max-width: 50%;
   color: var(--light-nav-text-colour);
+}
+@media (max-width: 1390px) {
+  .blog_post_p {
+    margin: auto;
+    align-items: center;
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   .blog_post_p {
@@ -719,6 +725,11 @@ p a:hover {
 .blog_span_hr_border span {
   flex-wrap: wrap;
 }
+@media (max-width: 1390px) {
+  .blog_span_hr_border {
+    padding-left: 15em;
+  }
+}
 
 .blog_svg {
   fill: var(--light-svg-fill-colour);
@@ -792,6 +803,14 @@ p a:hover {
   display: flex;
   margin-right: 4em;
 }
+@media (max-width: 1390px) {
+  .blog_post_img_placement {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    margin-left: 15em;
+  }
+}
 @media screen and (max-width: 800px) {
   .blog_post_img_placement {
     margin-left: 1.5em;
@@ -813,6 +832,12 @@ p a:hover {
   width: 30%;
   padding-right: 1em;
   display: flex;
+}
+@media (max-width: 1390px) {
+  .blog_post_img {
+    align-items: center;
+    display: flex;
+  }
 }
 @media (max-width: 709px) {
   .blog_post_img {
