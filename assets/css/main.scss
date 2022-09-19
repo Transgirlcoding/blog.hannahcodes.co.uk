@@ -977,6 +977,27 @@ img.bg {
                 margin-left: -512px; /* 50% */
                 }
             }
+            img.blog_post_7_bg {
+              /* Set rules to fill background */
+              min-height: 40%;
+              min-width: 1920px;
+              opacity: 70%;
+              z-index: -10;
+                                    
+              /* Set up proportionate scaling */
+              width: 100%;
+              height: auto;
+                                    
+              /* Set up positioning */
+              position: fixed;
+              top: -126%;
+              left: 0;
+              @media screen and (max-width: 1024px) {
+                  /* Specific to this particular image */ 
+                  left: 50%;
+                  margin-left: -512px; /* 50% */
+                  }
+              }
     img.about_bg {
       /* Set rules to fill background */
       min-height: 100%;
