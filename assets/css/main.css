@@ -415,11 +415,12 @@ nav .hamburger div {
   margin: auto;
   text-align: center;
   padding-bottom: 2em;
+  font-weight: 400;
   color: var(--light-nav-text-colour);
 }
 @media screen and (max-width: 800px) {
   .blog_welcome_text {
-    font-size: 1.25em;
+    font-size: 1.2em;
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -1116,6 +1117,94 @@ img.blog_post_7_bg {
 }
 @media screen and (max-width: 1024px) {
   img.blog_post_7_bg {
+    /* Specific to this particular image */
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+img.blog_post_8_bg {
+  /* Set rules to fill background */
+  min-height: 20%;
+  min-width: 1920px;
+  opacity: 70%;
+  z-index: -10;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: -70%;
+  left: 0;
+}
+@media screen and (max-width: 1024px) {
+  img.blog_post_8_bg {
+    /* Specific to this particular image */
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+img.blog_post_9_bg {
+  /* Set rules to fill background */
+  min-height: 20%;
+  min-width: 1920px;
+  opacity: 70%;
+  z-index: -10;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: -10%;
+  left: 0;
+}
+@media screen and (max-width: 1024px) {
+  img.blog_post_9_bg {
+    /* Specific to this particular image */
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+img.blog_post_10_bg {
+  /* Set rules to fill background */
+  min-height: 20%;
+  min-width: 1920px;
+  opacity: 70%;
+  z-index: -10;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: -10%;
+  left: 0;
+}
+@media screen and (max-width: 1024px) {
+  img.blog_post_10_bg {
+    /* Specific to this particular image */
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+img.blog_post_11_bg {
+  /* Set rules to fill background */
+  min-height: 20%;
+  min-width: 1920px;
+  opacity: 70%;
+  z-index: -10;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: -10%;
+  left: 0;
+}
+@media screen and (max-width: 1024px) {
+  img.blog_post_11_bg {
     /* Specific to this particular image */
     left: 50%;
     margin-left: -512px; /* 50% */
