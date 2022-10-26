@@ -36,9 +36,9 @@
 :root {
   /*light mode colours*/
   --light-hamburger-icon-colour: black;
-  --light-body-bg-colour: #F8F8FF;
+  --light-body-bg-colour: #f8f8ff;
   --light-hover-active-colour: #5c2246;
-  --light-nav-footer-bg-colour: #F5F5F5;
+  --light-nav-footer-bg-colour: #f5f5f5;
   --light-nav-text-colour: black;
   --light-svg-fill-colour: black;
   --light-section-1-bg-colour: #cfcaca;
@@ -48,11 +48,11 @@
   --light-sorce-code-svg-fill-colour: #5a5c5e;
   --light-card-bg-colour: white;
   --light-card-title-span-colour: #333;
-  --light-card-box-shadow-colour: rgba(0,0,0,0.2);
+  --light-card-box-shadow-colour: rgba(0, 0, 0, 0.2);
   --light-card-box-shadow-hover-colour: #5c2246;
   --light-top-border-colour: #5c2246;
   /*dark mode colours*/
-  --hover-active-colour: #F2C7E2;
+  --hover-active-colour: #f2c7e2;
   --svg-fill-colour: #fff;
   --sorce-code-svg-fill-colour: hsl(214, 7%, 47%);
   --section-1-bg-colour: #121212;
@@ -65,9 +65,9 @@
   --hamburger-icon-colour: #f2f5f7;
   --card-bg-colour: #262626;
   --card-title-span-colour: rgb(255, 251, 251);
-  --card-box-shadow-colour: rgba(139,138,138,0.2);
+  --card-box-shadow-colour: rgba(139, 138, 138, 0.2);
   --card-box-shadow-hover-colour: #f2c7e2;
-  --top-border-colour: #F2C7E2;
+  --top-border-colour: #f2c7e2;
   --footer-link-colour: dimgrey;
   --blog-span-hr-colour: rgba(105, 105, 105, 0.26);
 }
@@ -752,16 +752,19 @@ p a:hover {
   }
 }
 
-.blog_color_primary, span.blog_color_primary {
+.blog_color_primary,
+span.blog_color_primary {
   color: var(--light-nav-text-colour);
 }
 @media screen and (max-width: 700px) {
-  .blog_color_primary, span.blog_color_primary {
+  .blog_color_primary,
+span.blog_color_primary {
     margin-left: 1em;
   }
 }
 @media (prefers-color-scheme: dark) {
-  .blog_color_primary, span.blog_color_primary {
+  .blog_color_primary,
+span.blog_color_primary {
     color: var(--nav-text-colour);
   }
 }
@@ -1156,7 +1159,7 @@ img.blog_post_9_bg {
   height: auto;
   /* Set up positioning */
   position: fixed;
-  top: -10%;
+  top: -55%;
   left: 0;
 }
 @media screen and (max-width: 1024px) {
