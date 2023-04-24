@@ -1181,7 +1181,7 @@ img.blog_post_10_bg {
   height: auto;
   /* Set up positioning */
   position: fixed;
-  top: -10%;
+  top: -185%;
   left: 0;
 }
 @media screen and (max-width: 1024px) {
